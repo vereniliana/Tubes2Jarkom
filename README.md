@@ -22,7 +22,6 @@ Pengiriman pesan antar node dilakukan dengan memperbaharui distance dan nextHop 
 
 
 ### Pertanyaan dan Jawaban 
-**Apakah perbedaan dari routing protocol distance-vector dan link state? 
-Manakah yang lebih baik untuk digunakan?**
+#### Apakah perbedaan dari routing protocol distance-vector dan link state? Manakah yang lebih baik untuk digunakan?
 
-**Pada implementasinya saat ini manakah yang lebih banyak digunakan, distance-vector atau  link state? Kenapa?**
+#### Pada implementasinya saat ini manakah yang lebih banyak digunakan, distance-vector atau  link state? Kenapa?
