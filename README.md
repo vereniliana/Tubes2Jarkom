@@ -15,11 +15,14 @@ Pada program ini, node disimulasikan dalam bentuk indeks matriks. Matriks berisi
 
 Pengiriman pesan antar node dilakukan dengan memperbaharui distance dan nextHop pada matriks keterhubungan node. 
 
-## Pembagian tugas.
+## Pembagian tugas
 *Sampaikan dalam list pengerjaan untuk setiap mahasiswa. Sebagai contoh: XXXX mengerjakan fungsi YYYY, ZZZZ, dan YYZZ.*
+* 13515078 Veren Iliana Kurniadi
+* 13515087 Audry Nyonata
+* 13515xxx Annisa Nurul Azhar
 
 
-## Pertanyaan dan Jawaban 
-#### Apakah perbedaan dari routing protocol distance-vector dan link state? Manakah yang lebih baik untuk digunakan?
+## Jawaban Pertanyaan 
+#### 1. Apakah perbedaan dari routing protocol distance-vector dan link state? Manakah yang lebih baik untuk digunakan?
 
-#### Pada implementasinya saat ini manakah yang lebih banyak digunakan, distance-vector atau  link state? Kenapa?
+#### 2. Pada implementasinya saat ini manakah yang lebih banyak digunakan, distance-vector atau  link state? Kenapa?
