@@ -7,13 +7,13 @@
 4. Jalankan program dengan perintah "make run" (tanpa kutip)  
 
 ## Penjelasan program
-*Bagaimana anda mensimulasikan sebuah node dalam program anda?*
+#### Bagaimana anda mensimulasikan sebuah node dalam program anda?*
 
 Pada program ini, node disimulasikan dalam bentuk indeks matriks. Matriks berisi pasangan distance dan nextHop yang menunjukkan keterhubungan antar node.  
 
 Misalnya, matriks\[1\]\[2\] berisi vektor (distance dan nextHop) dari node 1 ke node 2.
 
-*Bagaimana proses pengiriman pesan antar node terjadi? Jelaskan dengan menggunakan nama fungsi dan/atau struktur data yang anda gunakan.*
+#### Bagaimana proses pengiriman pesan antar node terjadi? Jelaskan dengan menggunakan nama fungsi dan/atau struktur data yang anda gunakan.
 
 Pengiriman pesan antar node dilakukan dengan memperbaharui nilai distance dan nilai nextHop pada suatu vektor elemen matriks. Proses pengiriman pesan dilakukan berdasarkan input skenario. Pasangan x,y menandakan pengiriman informasi dari node x ke node y. Jika pada kolom j, nilai matriks[x][j].distance + 1 < matriks[y][j].distance, atau matriks[x][j].distance + 1 dan matriks[y][j].distance bernilai sama namun x < matriks[y][j].nextHop, maka elemen matriks\[y\][j] akan diperbaharui sehingga distancenya menjadi matriks[x][j].distance + 1, dan nextHopnya menjadi x. Proses ini merepresentasikan pencatatan oleh node y agar paket yang datang selalu dikirimkan melalui x terlebih dahulu.  
 
