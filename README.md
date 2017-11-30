@@ -1,6 +1,6 @@
 # Tugas Besar 2 IF3130 - Distance Vector Simulation
 
-## Petunjuk penggunaan program.
+## Petunjuk penggunaan program
 1. Ekstrak file TB2_K03_15_SnowWhitoon.zip
 2. Buka direktori TB2_K03_15_SnowWhitoon di terminal
 3. Masukan perintah "make" (tanpa kutip) untuk melakukan kompilasi program
