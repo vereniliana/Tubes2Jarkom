@@ -7,7 +7,7 @@
 4. Jalankan program dengan perintah "make run" (tanpa kutip)  
 
 ## Penjelasan program
-#### Bagaimana anda mensimulasikan sebuah node dalam program anda?*
+#### Bagaimana anda mensimulasikan sebuah node dalam program anda?
 
 Pada program ini, node disimulasikan dalam bentuk indeks matriks. Matriks berisi pasangan distance dan nextHop yang menunjukkan keterhubungan antar node.  
 
